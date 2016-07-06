@@ -1,0 +1,10 @@
+<button type="button" class="btn-lg" name="sleep" id="sleep" >Sleep</button>
+<button type="button" class="btn-lg" name="activity" id="activity" >Activity</button>
+<button type="button" class="btn-lg" name="food" id="food" >Eat</button>
+<button type="button" class="btn-lg" name="kill" id="kill" >Kill</button>
+
+<ul>
+  <li>Food level of your Tamagotchi: <%= @my_tamagotchi.food()%></li>
+  <li>Sleep level of your Tamagotchi: <%= @my_tamagotchi.sleep()%></li>
+  <li>Activity level of your Tamagotchi: <%= @my_tamagotchi.activity()%></li>
+</ul>
